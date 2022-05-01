@@ -1,13 +1,13 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: "Welcome to LetzWrk ! How can I help ?"
+metaTitle: "Handyman Solutions"
+metaDescription: "Aiding the Austin, Texas Community"
 ---
 
 Some introduction text. Lists out all the headings from h1 to h6. Markdown link handling for relative and absolute URLs. Easy to customise.
 
 # Heading H1
-Heading 1 text
+Heading 1 text changed. intro.md
 
 ## Heading H2
 Heading 2 text
@@ -19,17 +19,17 @@ Heading 3 text
 Heading 4 text
 
 ##### Heading H5
-Heading 5 text
+Heading 5 text 
 
 ###### Heading H6
-Heading 6 text
+Heading 6 text 
 
 ## Lists
 - Item 1
 - Item 2
 - Item 3
 - Item 4
-- Item 5
+- Item 5 changed
 
 ## Links
 
