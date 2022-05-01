@@ -35,6 +35,7 @@ export default {
   ),
   h2: (props) => (
     <h2
+    
       className="heading2"
       id={appendString(props.children).replace(/\s+/g, '').toLowerCase()}
       {...props}
