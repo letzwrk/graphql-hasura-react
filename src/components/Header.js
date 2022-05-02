@@ -70,7 +70,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             headerLinks {
               link
               text
-            }sd
+            }
           }
         }
       }
