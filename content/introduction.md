@@ -1,10 +1,12 @@
 ---
-title: "Welcome to LetzWrk ! How can I help ?"
-metaTitle: "Handyman Solutions"
+title: "Payments"
+metaTitle: "Payments via Stripe"
 metaDescription: "Aiding the Austin, Texas Community"
 ---
 
 Some introduction text. Lists out all the headings from h1 to h6. Markdown link handling for relative and absolute URLs. Easy to customise.
+
+<!--
 
 # Heading H1
 Heading 1 text changed. intro.md
@@ -35,3 +37,5 @@ Heading 6 text
 
 * Relative: [Codeblock](/codeblock)
 * Absolute: [Demo](https://learn.hasura.io/graphql/react)
+
+-->
