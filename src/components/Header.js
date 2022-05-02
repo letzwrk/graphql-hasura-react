@@ -70,7 +70,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             headerLinks {
               link
               text
-            }
+            }sd
           }
         }
       }
@@ -90,7 +90,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         },
       } = data;
 
-      const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
+      //const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
 
       return (
         <div className={'navBarWrapper'}>

@@ -44,15 +44,15 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Hasura', link: 'https://github.com/letzwrk' }],
     frontline: false,
     ignoreIndex: true,
     title:
       "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'LetzWrk repo can be found here',
+    description: 'Documentation built with mdx.',
     ogImage: null,
     docsLocation: 'https://github.com/letzwrk',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
