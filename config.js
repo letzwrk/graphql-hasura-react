@@ -58,7 +58,7 @@ const config = {
     title: 'LetzWrk repo can be found here',
     description: 'Documentation built with mdx.',
     ogImage: null,
-    docsLocation: 'https://github.com/letzwrk',
+    docsLocation: 'https://github.com',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
