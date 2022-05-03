@@ -5,12 +5,14 @@ const config = {
     gaTrackingId: null,
     trailingSlash: false,
   },
-  header: {
+  
+  header: {   /*
     logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
     logoLink: 'https://hasura.io/learn/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/letzwrk',
+      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>", */
+
+    githubUrl: 'https://www.github.com/letzwrk',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -38,30 +40,32 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/Paymwnts', // add trailing slash if enabled above
+      '/Payments', // add trailing slash if enabled above
       '/codeblock',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
+    /*  BENEITH LOGO ORIGINALLY 
     links: [{ text: 'Hasura', link: 'https://hasura.io' }],
     frontline: false,
     ignoreIndex: true,
     title:
       "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
-  },
+  */},
+
   siteMetadata: {
     title: 'LetzWrk repo can be found here',
     description: 'Documentation built with mdx.',
     ogImage: null,
-    docsLocation: 'https://github.com/letzwrk',
+    docsLocation: 'https://github.com',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'graphql-hasura-starer',
-      short_name: 'GitbookStarter',
+      name: 'letzwrk',
+      short_name: 'Handyman Site',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
