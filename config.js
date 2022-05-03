@@ -58,13 +58,13 @@ const config = {
     title: 'LetzWrk repo can be found here',
     description: 'Documentation built with mdx.',
     ogImage: null,
-    docsLocation: 'https://github.com',
+    docsLocation: 'https://github.com/letzwrk',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'letzwrk',
+      name: 'graphql-hasura-react',
       short_name: 'Handyman Site',
       start_url: '/',
       background_color: '#6b37bf',
