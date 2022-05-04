@@ -24,6 +24,7 @@
     "gatsby-link": "^4.0.0",
     "gatsby-plugin-algolia": "^0.19.0",
     "gatsby-plugin-emotion": "^7.0.0",
+    "gatsby-plugin-gatsby-cloud": "^4.13.0",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-layout": "^3.0.0",
     "gatsby-plugin-manifest": "^4.0.0",
