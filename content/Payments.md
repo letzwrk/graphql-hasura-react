@@ -1,10 +1,15 @@
 ---
-title: "Welcome to LetzWrk! "
+title: "Payments"
+metaTitle: "Payments via Stripe"
+metaDescription: "Aiding the Austin, Texas Community"
 ---
 
-# Needing a Handymans Help ? 
+https://buy.stripe.com/28ocPQdvj5Ki3PG144
 
-Send me the details of your project, I will get back to you with a quote. $100 service call special if you need me to come look at the issue! Naturally this will apply to the first hours work & travel
+<!--
+
+# Heading H1
+Heading 1 text changed. intro.md
 
 ## Heading H2
 Heading 2 text
@@ -16,20 +21,21 @@ Heading 3 text
 Heading 4 text
 
 ##### Heading H5
-Heading 5 text
+Heading 5 text 
 
 ###### Heading H6
-Heading 6 text
+Heading 6 text 
 
 ## Lists
 - Item 1
 - Item 2
 - Item 3
 - Item 4
-- Item 5
+- Item 5 changed
 
 ## Links
 
 * Relative: [Codeblock](/codeblock)
 * Absolute: [Demo](https://learn.hasura.io/graphql/react)
 
+-->

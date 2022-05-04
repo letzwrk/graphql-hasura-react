@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import config from '../config';
 
 export default class HTML extends React.Component {
-  render() {
-    return (
+  render( ) { return (
       <html {...this.props.htmlAttributes} lang="en">
         <head>
           <meta charSet="utf-8" />
@@ -20,28 +19,21 @@ export default class HTML extends React.Component {
           {config.siteMetadata.favicon ? (
             <link rel="shortcut icon" type="image/svg" href={config.siteMetadata.favicon} />
           ) : null}
-          <noscript key="noscript"></noscript>
+          <noscript key="noscript"> </noscript>
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
-          <div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
+          <div key={`body`} id="___gatsby" 
+          dangerouslySetInnerHTML={{ __html: this.props.body }} />
           {this.props.postBodyComponents}
-          <script
-            defer
-            dangerouslySetInnerHTML={{
-              __html: `
+          <script defer dangerouslySetInnerHTML={{ __html: `
             function navBarClose() {
               document.getElementById("navbar").classList.toggle("responsive");
             }
-            document.addEventListener('click',function(e){
-              if(e.target && e.target.tagName.toLowerCase() === 'a'){
-                navBarClose();
-              }
-           });
-            `,
-            }}
-          />
+            document.addEventListener('click',function(e) {
+              if (e.target && e.target.tagName.toLowerCase() === 'a'){ navBarClose();
+              } } ) ; ` , } } />
         </body>
       </html>
     );
