@@ -12,7 +12,7 @@ const config = {
     title: 
       "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>"  ,
 
-    githubUrl: 'https://www.github.com/letzwrk',
+    githubUrl: 'https://github.com/letzwrk',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -40,7 +40,7 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/Payments', // add trailing slash if enabled above
+      '/payments', // add trailing slash if enabled above
       '/codeblock',
     ],
     collapsedNav: [
@@ -58,7 +58,7 @@ const config = {
     title: 'LetzWrk repo can be found here',
     description: 'Documentation built with mdx.',
     ogImage: null,
-    docsLocation: 'https://github.com',
+    docsLocation: 'https://github.com/letzwrk/letzwrk.github.io/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
