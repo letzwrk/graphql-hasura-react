@@ -6,7 +6,7 @@ metaDescription: "Aiding the Austin, Texas Community"
 
 https://buy.stripe.com/28ocPQdvj5Ki3PG144
 
-<a x style="display: block; margin: 0 auto;"><img alt="LetzWrk - Reviews on Home Advisor" style="display:block;" src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=118281790&key=72ed2e20dfc89bc3fe6d0ccdb4d1f376" /></a>
+<img alt="LetzWrk - Reviews on Home Advisor" style="display:block;" src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=118281790&key=72ed2e20dfc89bc3fe6d0ccdb4d1f376" />
 
 <!--
 
