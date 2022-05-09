@@ -39,7 +39,7 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/payments', // add trailing slash if enabled above
-      '/codeblock',
+      '/skills',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
