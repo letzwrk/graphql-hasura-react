@@ -34,11 +34,13 @@ const plugins = [
       enableWebVitalsTracking: true,
     },
   },
-
+/*
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "YOUR_GOOGLE_TAGMANAGER_ID",
+        id: "JEGH71LWF9
+
+        ",
   
         // Include GTM in development.
         //
@@ -67,7 +69,7 @@ const plugins = [
         selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
       },
     },
-
+*/
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
   {
