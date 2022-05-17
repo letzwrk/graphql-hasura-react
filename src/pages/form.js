@@ -1,10 +1,11 @@
-import * as React from 'react';
-
-import { graphql } from "gatsby"
-
 /*
 
-collection Route Components
+import * as React from 'react';
+import { graphql } from "gatsby"
+
+
+
+Collection Route Components
 
 https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/
 
@@ -48,4 +49,5 @@ export default function Component(props) {
       }
     `
     */
+
     // check and add algolia___AI GENERATED;
