@@ -47,12 +47,12 @@ const config = {
     links: [{ text: 'Hasura', link: 'https://hasura.io' }],
     frontline: false,
     ignoreIndex: true,
-    title:
+ //   title:
 //      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'A Labor & E-commerce platform',
+    description: 'Built to ease the process of doing a blue collar task',
     ogImage: null,
     docsLocation: 'https://github.com/letzwrk',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
