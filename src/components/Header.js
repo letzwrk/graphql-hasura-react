@@ -63,10 +63,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             githubUrl
             helpUrl
             tweetText
-            logo {
-              link
-              image
-            }
             headerLinks {
               link
               text
