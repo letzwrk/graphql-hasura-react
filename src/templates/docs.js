@@ -52,10 +52,7 @@ export default class MDXRuntimeTest extends Component {
         { items: [] }
       );
 
-    const nav = forcedNavOrder
-      .reduce((acc, cur) => {
-        return acc.concat(navItems[cur]);
-      }, [])
+    const nav = forcedNavOrder.reduce((acc, cur) => { return acc.concat(navItems[cur]); }, [])
       .concat(navItems.items)
       .map(slug => {
         if (slug) {
@@ -75,6 +72,7 @@ export default class MDXRuntimeTest extends Component {
     canonicalUrl =
       config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
+
 
     return (
       <Layout {...this.props}>
