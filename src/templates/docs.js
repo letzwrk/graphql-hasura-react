@@ -92,7 +92,7 @@ export default class MDXRuntimeTest extends Component {
           <StyledHeading>{mdx.fields.title}</StyledHeading>
           <Edit className={'mobileView'}>
             {docsLocation && (
-              <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
+              <Link className={'gitBtn'} to={`${docsLocation}`}>
                 <img src={githubIcon} alt={'Github logo'} /> Edit on GitHub
               </Link>
             )}
@@ -108,7 +108,7 @@ export default class MDXRuntimeTest extends Component {
     );
   }
 }
-
+// /${mdx.parent.relativePath}
 export const pageQuery = graphql`
   query($id: String!) {
     site {
