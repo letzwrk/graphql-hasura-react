@@ -82,11 +82,11 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
 
       const {
         site: {
-          siteMetadata: { headerTitle, githubUrl, helpUrl, tweetText, logo, headerLinks },
+          siteMetadata: { githubUrl, helpUrl, tweetText, logo, headerLinks },
         },
       } = data;
 
-      const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
+    //  const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
 
       return (
         <div className={'navBarWrapper'}>
