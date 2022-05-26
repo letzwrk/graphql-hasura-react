@@ -48,6 +48,7 @@ exports.createPages = ({ graphql, actions }) => {
       })
     );
   });
+  
 };
 
 exports.onCreateWebpackConfig = ({ actions }) => {
