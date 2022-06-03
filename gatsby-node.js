@@ -108,14 +108,26 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     });
   }
 };
-
-
+// Replacing '/' would result in empty string which is invalid
+const replacePath = path => (path === `/` ? path : path.replace(/\/$/, ``))
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+  const oldPage = Object.assign({}, page)
+  // Remove trailing slash unless page is /
+  page.path = replacePath(page.path)
+  if (page.path !== oldPage.path) {
+    // Replace old page with new page
+    deletePage(oldPage)
+    createPage(page)
+  }
+}
 /*
 Often you will need to programmatically create pages. For example, you have markdown files where each should be a page.
 
 This example assumes that each markdown page has a path set in the frontmatter of the markdown file.
 */
-
 const path = require("path")
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
