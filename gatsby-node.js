@@ -128,7 +128,7 @@ Often you will need to programmatically create pages. For example, you have mark
 
 This example assumes that each markdown page has a path set in the frontmatter of the markdown file.
 */
-const path = require("path")
+// const path = require("path")
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const queryResults = await graphql(`
