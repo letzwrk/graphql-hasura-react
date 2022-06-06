@@ -34,13 +34,11 @@ const plugins = [
       enableWebVitalsTracking: true,
     },
   },
-/*
+
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "JEGH71LWF9
-
-        ",
+        id: "UA-208737216-1",
   
         // Include GTM in development.
         //
