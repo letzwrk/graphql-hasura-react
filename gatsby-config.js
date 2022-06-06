@@ -67,7 +67,7 @@ const plugins = [
         selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
       },
     },
-*/
+
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
   {
