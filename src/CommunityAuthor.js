@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+// is this a page to be made ?
+
 const CommunityAuthor = ({ name, imageUrl, twitterUrl, githubUrl, description }) => {
   return (
     <>
